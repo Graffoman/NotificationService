@@ -1,11 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿using NotificationService.Classes;
 using System;
-using System.Net;
-using System.IO;
-using System.Threading.Tasks;
 using System.Net.Mail;
-using System.Net.Mime;
 
 namespace NetConsoleApp
 {
@@ -13,31 +8,31 @@ namespace NetConsoleApp
     {
         static void Main(string[] args)
         {
-            SmtpClient smtp = new SmtpClient("smtp.mail.ru", 587);
-            smtp.Credentials = new System.Net.NetworkCredential("alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq");
-            smtp.EnableSsl = true;
-
-            MailMessage mail = new MailMessage();
-            mail.From = new MailAddress("alenchaeto@mail.ru");
-            mail.To.Add(new MailAddress("alenchaeto@mail.ru"));
-            mail.Subject = "Subject";
-            mail.Body = "Body";
-           
-            smtp.Send(mail);
+            var smtpClient = new SmtpClient("smtp.mail.ru", 587)
+            {
+                Credentials = new System.Net.NetworkCredential("alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq"),
+                EnableSsl = true
+            };
             
+            var emailSender = new EmailSender(smtpClient);
+
+            var emailMessage = new EmailMessageMaker()
+                .SetFrom("alenchaeto@mail.ru")
+                .AddToRecipient("alenchaeto@mail.ru")
+                .SetSubject("Subject1")
+                .SetBody("Body1")
+                .Build();
+
             try
             {
-                smtp.Send(mail);
-                Console.WriteLine("Message send");
+                emailSender.SendEmail(emailMessage);
+                Console.WriteLine("Message sent");
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
                 Console.ReadKey();
             }
-
         }
     }
 }
-
-
