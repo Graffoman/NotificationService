@@ -8,9 +8,9 @@ using System.Net.Mail;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSingleton<IEmailSender, SmtpEmailSender>();
+builder.Services.AddSingleton<IEmailSender, SmtpEmailSender>(sp =>
+    new SmtpEmailSender("smtp.mail.ru", 587, "alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq"));
 var app = builder.Build();
-var smtpEmailSender = new SmtpEmailSender("smtp.mail.ru", 587, "alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq");
 
 app.MapPost("/send-email", (MailMessage emailMessage, IEmailSender emailSender) =>
 {
@@ -21,7 +21,7 @@ app.MapPost("/send-email", (MailMessage emailMessage, IEmailSender emailSender) 
         .SetBody("BodyÒåëî")
         .Build();
 
-    smtpEmailSender.SendEmail(emailMessage);
+    emailSender.SendEmail(emailMessage);
     return Results.Ok();
 });
 
