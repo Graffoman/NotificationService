@@ -15,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\classes\\emailmessagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\vasilevaea\\source\\repos\\notificationservice\\notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\vasilevaea\\source\\repos\\notificationservice\\notificationservice\\classes\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\classes\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\vasilevaea\\source\\repos\\notificationservice\\notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\vasilevaea\\source\\repos\\notificationservice\\notificationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\vasilevaea\\source\\repos\\notificationservice\\notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +70,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "NotificationService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "NotificationService\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T13:48:54.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EmailMessage.cs",
               "DocumentMoniker": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Classes\\EmailMessage.cs",
               "RelativeDocumentMoniker": "NotificationService\\Classes\\EmailMessage.cs",
@@ -74,8 +90,7 @@
               "RelativeToolTip": "NotificationService\\Classes\\EmailMessage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:39:34.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T05:39:34.857Z"
             },
             {
               "$type": "Document",
@@ -83,16 +98,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
               "RelativeDocumentMoniker": "NotificationService\\Program.cs",
-              "ToolTip": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
-              "RelativeToolTip": "NotificationService\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAKAAAA",
+              "ToolTip": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Program.cs*",
+              "RelativeToolTip": "NotificationService\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T14:37:47.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\appsettings.json",
               "RelativeDocumentMoniker": "NotificationService\\appsettings.json",
@@ -100,21 +115,19 @@
               "RelativeToolTip": "NotificationService\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-19T14:37:43.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T14:37:43.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IEmailSender.cs",
               "DocumentMoniker": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Interfaces\\IEmailSender.cs",
               "RelativeDocumentMoniker": "NotificationService\\Interfaces\\IEmailSender.cs",
               "ToolTip": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Interfaces\\IEmailSender.cs",
               "RelativeToolTip": "NotificationService\\Interfaces\\IEmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T14:37:06.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T14:37:06.489Z"
             },
             {
               "$type": "Document",
@@ -124,7 +137,7 @@
               "RelativeDocumentMoniker": "NotificationService\\Classes\\SmtpEmailSender.cs",
               "ToolTip": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Classes\\SmtpEmailSender.cs",
               "RelativeToolTip": "NotificationService\\Classes\\SmtpEmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAyAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAEwCQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T14:36:51.202Z",
               "EditorCaption": ""
@@ -137,10 +150,9 @@
               "RelativeDocumentMoniker": "NotificationService\\Classes\\EmailMessageBuilder.cs",
               "ToolTip": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\Classes\\EmailMessageBuilder.cs",
               "RelativeToolTip": "NotificationService\\Classes\\EmailMessageBuilder.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T14:36:32.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T14:36:32.421Z"
             }
           ]
         }

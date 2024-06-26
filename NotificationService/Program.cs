@@ -8,22 +8,38 @@ using System.Net.Mail;
 
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddSingleton<IEmailSender, SmtpEmailSender>(sp =>
-    new SmtpEmailSender("smtp.mail.ru", 587, "alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq"));
+IEmailSender emailSender = new SmtpEmailSender("smtp.mail.ru", 587, "alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq");
 var app = builder.Build();
 
-app.MapPost("/send-email", (EmailMessage emailMessage, IEmailSender emailSender) =>
+app.MapPost("/sendEmail", () =>
 {
-    emailMessage = new EmailMessageBuilder()
+    var emailMessage = new EmailMessageBuilder()
         .SetFrom("alenchaeto@mail.ru")
         .AddToRecipient("alenchaeto@mail.ru")
-        .SetSubject("SubjectÎáúåêò")
-        .SetBody("BodyÒåëî")
-        .Build();
-
+        .SetSubject("Subject2")
+        .SetBody("Body2")
+        .Build(); 
+    
     emailSender.SendEmail(emailMessage.ToMailMessage());
     return Results.Ok();
 });
 
 app.Run();
+
+
+//builder.Services.AddSingleton<IEmailSender, SmtpEmailSender>(sp =>
+//    new SmtpEmailSender("smtp.mail.ru", 587, "alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq"));
+
+//app.MapPost("/sendEmail", (EmailMessage emailMessage, IEmailSender emailSender) =>
+//{
+//    emailMessage = new EmailMessageBuilder()
+//        .SetFrom("alenchaeto@mail.ru")
+//        .AddToRecipient("alenchaeto@mail.ru")
+//        .SetSubject("Subject2")
+//        .SetBody("Body2")
+//        .Build();
+
+//    emailSender.SendEmail(emailMessage.ToMailMessage());
+
+//    return Results.Ok();
+//});
