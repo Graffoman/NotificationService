@@ -30,3 +30,7 @@ C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Deb
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.Properties.Resources.resources
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.GenerateResource.cache
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs

@@ -9,22 +9,22 @@ namespace NotificationService.Classes
 {
     internal class EmailMessageBuilder
     {
-        private EmailMessage _emailMessage;
+        private MailData _emailMessage;
 
         public EmailMessageBuilder()
         {
-            _emailMessage = new EmailMessage();
+            _emailMessage = new MailData();
         }
 
         public EmailMessageBuilder SetFrom(string from)
         {
-            _emailMessage.From = new MailAddress(from);
+            _emailMessage.From = from;
             return this;
         }
 
         public EmailMessageBuilder AddToRecipient(string to)
         {
-            _emailMessage.To.Add(new MailAddress(to));
+            _emailMessage.To.Add(to);
             return this;
         }
 
@@ -40,7 +40,7 @@ namespace NotificationService.Classes
             return this;
         }
 
-        public EmailMessage Build()
+        public MailData Build()
         {
             return _emailMessage;
         }
