@@ -1,0 +1,21 @@
+﻿// сгенерированный JMvwj6tD3r6ACGypqLNq
+
+
+Тестовые данные для отправки почты
+{
+  "to": [
+    "alenchaeto@mail.ru"
+  ],
+  "bcc": [
+    "alenchaeto@gmail.com"
+  ],
+  "cc": [
+    "alenchaeto@gmail.com"
+  ],
+  "from": "alenchaeto@mail.ru",
+  "displayName": "alenchaeto",
+  "replyTo": "",
+  "replyToName": "string",
+  "subject": "string",
+  "body": "string"
+}
