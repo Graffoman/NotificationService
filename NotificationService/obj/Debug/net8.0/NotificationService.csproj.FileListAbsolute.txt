@@ -34,3 +34,11 @@ C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Deb
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.GenerateResource.cache
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\System.Formats.Asn1.dll
