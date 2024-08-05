@@ -1,16 +1,13 @@
 ﻿using System.Net.Mail;
+using System.Security.Claims;
 
 namespace NotificationService.Classes
 {
     public class SmtpSettings
     {
-        public const string Smtp = "SmtpSettings";
-
-        public string SmtpHost { get; set; }
-        public Int32 SmtpPort { get; set; }
-        public string SmtpUserName { get; set; }
-        public string SmtpPassword { get; set; }
-
-       
+        public string Host { get; set; }
+        public int Port { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

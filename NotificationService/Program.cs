@@ -10,6 +10,7 @@ using RabbitMQ.Client;
 using Microsoft.Extensions.Configuration;
 using NotificationService.Configuration;
 using NotificationService;
+using System.Security.Claims;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,16 +20,38 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.Configure<MailSettings>(
+builder.Services.Configure<SmtpSettings>(
     builder
         .Configuration
-        .GetSection(nameof(MailSettings))
+        .GetSection("SmtpSettings")
 );
 builder.Services.AddTransient<IMailService, MailService>();
-
-//IEmailSender emailSender = new SmtpEmailSender("smtp.mail.ru", 587, "alenchaeto@mail.ru", "JMvwj6tD3r6ACGypqLNq");
-
 var app = builder.Build();
+
+var toList = new List<string>();
+var bccList = new List<string>();
+var ccList = new List<string>();
+
+var emailMessageItem = new MailData(toList,
+    " subject",
+     "body ",
+    MailAddress.C ? from = null,
+    "displayName" ,
+     "replyTo" ,
+     "replyToName" ,
+    bccList,
+    ccList)
+
+;
+
+var emailBuilder = new EmailMessageBuilder();
+emailBuilder.SetFrom(emailMessageItem.From)
+        .AddToRecipient(emailMessageItem.To)
+        .SetSubject(emailMessageItem.Subject)
+        .SetBody(emailMessageItem.Body)
+        .Build();
+
+var mailData = emailBuilder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -42,16 +65,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
-
-var emailMessageItem = new MailSettings
-{
-    From = "alenchaeto@mail.ru",
-    To = "alenchaeto@mail.ru",
-    Subject = "1",
-    Body = "2"
-};
-
 
 app.Run();
 
