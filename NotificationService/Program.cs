@@ -43,6 +43,16 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+var emailMessageItem = new MailSettings
+{
+    From = "alenchaeto@mail.ru",
+    To = "alenchaeto@mail.ru",
+    Subject = "1",
+    Body = "2"
+};
+
+
 app.Run();
 
 //var emailMessageItem = new MailSettings
