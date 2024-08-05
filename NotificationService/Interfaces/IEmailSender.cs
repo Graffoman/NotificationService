@@ -10,7 +10,7 @@ namespace NotificationService.Interfaces
 {
     public interface IEmailSender
     {
-        void SendEmail(MailMessage message);
-        //Task<bool> SendAsync(MailMessage message, CancellationToken ct);
+        //void SendEmail(MailMessage message);
+        Task<bool> SendAsync(MailMessage message, CancellationToken ct);
     }
 }

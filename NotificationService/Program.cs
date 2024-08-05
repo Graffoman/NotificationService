@@ -31,18 +31,16 @@ var app = builder.Build();
 var toList = new List<string>();
 var bccList = new List<string>();
 var ccList = new List<string>();
-
+MailAddress from = new MailAddress("alenchaeto@mail.ru");
 var emailMessageItem = new MailData(toList,
     " subject",
      "body ",
-    MailAddress.C ? from = null,
+    from,
     "displayName" ,
      "replyTo" ,
      "replyToName" ,
     bccList,
-    ccList)
-
-;
+    ccList);
 
 var emailBuilder = new EmailMessageBuilder();
 emailBuilder.SetFrom(emailMessageItem.From)

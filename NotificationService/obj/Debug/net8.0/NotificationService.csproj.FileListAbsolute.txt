@@ -42,3 +42,16 @@ C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Deb
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\vasilevaea\source\repos\NotificationService\NotificationService\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.Properties.Resources.resources
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\Admin\source\repos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb

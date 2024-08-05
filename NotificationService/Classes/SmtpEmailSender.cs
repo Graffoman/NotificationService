@@ -33,5 +33,10 @@ namespace NotificationService.Classes
                 smtp.Send(message);
             }
         }
+
+        Task<bool> IEmailSender.SendAsync(MailMessage message, CancellationToken ct)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

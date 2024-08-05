@@ -16,7 +16,7 @@ namespace NotificationService.Classes
             _emailMessage = new MailData();
         }
 
-        public EmailMessageBuilder SetFrom(List<string> from)
+        public EmailMessageBuilder SetFrom(MailAddress from)
         {
             _emailMessage.From = from;
             return this;
@@ -24,7 +24,7 @@ namespace NotificationService.Classes
 
         public EmailMessageBuilder AddToRecipient(List<string> to)
         {
-            _emailMessage.To.Add(to);
+            _emailMessage.To.AddRange(to);
             return this;
         }
 
