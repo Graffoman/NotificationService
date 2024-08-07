@@ -1,14 +1,8 @@
-﻿using MailKit.Net.Smtp;
-using MailKit.Security;
+﻿using MailKit.Security;
 using Microsoft.Extensions.Options;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
-using NotificationService.Configuration;
-using NotificationService.Classes;
-using System.Net.Mail;
-using MailKit;
 using MimeKit;
+using NotificationService.Classes;
+using NotificationService.Configuration;
 
 namespace NotificationService.Services
 {

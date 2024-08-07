@@ -1,5 +1,7 @@
 ﻿
 using NotificationService.Classes;
+using MailKit;
+using MimeKit;
 
 namespace NotificationService.Services;
 

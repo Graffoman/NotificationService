@@ -16,7 +16,7 @@ namespace NotificationService.Classes
             _emailMessage = emailMessage;
         }
 
-        public EmailMessageBuilder SetFrom(MailAddress from)
+        public EmailMessageBuilder SetFrom(string from)
         {
             _emailMessage.From = from;
             return this;

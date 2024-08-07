@@ -1,10 +1,8 @@
-﻿// сгенерированный JMvwj6tD3r6ACGypqLNq
+﻿//Тестовые данные для отправки почты
 
-
-Тестовые данные для отправки почты
 {
   "to": [
-    "alenchaeto@mail.ru"
+    "alenchaeto@gmail.com"
   ],
   "bcc": [
     "alenchaeto@gmail.com"

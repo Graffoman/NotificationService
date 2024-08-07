@@ -10,12 +10,12 @@ namespace NotificationService.Classes
     public class MailData
     {
         //receiver
-        public List<string> To { get; set; }
+        public List<string> To { get; }
         public List<string> Bcc { get; }
         public List<string> Cc { get; }
 
         //sender
-        public MailAddress From { get; set; }
+        public string? From { get; set; }
         public string DisplayName { get; }
         public string ReplyTo { get; }
         public string ReplyToName { get; }
@@ -24,18 +24,19 @@ namespace NotificationService.Classes
         public string Subject { get; set; }
         public string Body { get; set; }
 
-        public MailData(List<string> to,
+        public MailData(
             string? subject,
             string? body = null,
-            MailAddress? from = null,
+            string? from = null,
             string? displayName = null,
             string? replyTo = null,
             string? replyToName = null,
             List<string>? bcc = null,
-            List<string>? cc = null)
+            List<string>? cc = null,
+            List<string>? to = null)
         {
             //Receiver
-            To = new List<string>();
+            To = to ?? new List<string>();
             Bcc = bcc ?? new List<string>();
             Cc = cc ?? new List<string>();
 
@@ -50,17 +51,17 @@ namespace NotificationService.Classes
             Body = body;
 
         }
-        public MailMessage ToMailMessage()
-        {
-            var mailMessage = new MailMessage();
-            mailMessage.From = From;
-            foreach (var to in To)
-            {
-                mailMessage.To.Add(to);
-            }
-            mailMessage.Subject = Subject;
-            mailMessage.Body = Body;
-            return mailMessage;
-        }
+        //public MailMessage ToMailMessage()
+        //{
+        //    var mailMessage = new MailMessage();
+        //    mailMessage.From = From;
+        //    foreach (var to in To)
+        //    {
+        //        mailMessage.To.Add(to);
+        //    }
+        //    mailMessage.Subject = Subject;
+        //    mailMessage.Body = Body;
+        //    return mailMessage;
+        //}
     }
 }
