@@ -10,7 +10,7 @@ using System.Net.Mail;
 using MailKit;
 using MimeKit;
 
-namespace mailService.Services
+namespace NotificationService.Services
 {
     public class MailService : IMailService
     {

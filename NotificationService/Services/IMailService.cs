@@ -1,7 +1,7 @@
 ﻿
 using NotificationService.Classes;
 
-namespace mailService.Services;
+namespace NotificationService.Services;
 
 public interface IMailService
 {

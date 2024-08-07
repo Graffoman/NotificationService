@@ -11,9 +11,9 @@ namespace NotificationService.Classes
     {
         private MailData _emailMessage;
 
-        public EmailMessageBuilder()
+        public EmailMessageBuilder(MailData emailMessage)
         {
-            _emailMessage = new MailData();
+            _emailMessage = emailMessage;
         }
 
         public EmailMessageBuilder SetFrom(MailAddress from)

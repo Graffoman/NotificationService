@@ -42,7 +42,7 @@ var emailMessageItem = new MailData(toList,
     bccList,
     ccList);
 
-var emailBuilder = new EmailMessageBuilder();
+var emailBuilder = new EmailMessageBuilder(emailMessageItem);
 emailBuilder.SetFrom(emailMessageItem.From)
         .AddToRecipient(emailMessageItem.To)
         .SetSubject(emailMessageItem.Subject)
