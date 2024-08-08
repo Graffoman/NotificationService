@@ -24,8 +24,8 @@ namespace NotificationService.Services
 
                 #region Sender / Receiver
                 // Sender
-                mail.From.Add(new MailboxAddress(_settings.DisplayName, mailData.From.ToString() ?? _settings.From.ToString()));
-                mail.Sender = new MailboxAddress(mailData.DisplayName ?? _settings.DisplayName, mailData.From.ToString() ?? _settings.From.ToString());
+                mail.From.Add(new MailboxAddress(_settings.DisplayName, mailData.From ?? _settings.From));
+                mail.Sender = new MailboxAddress(mailData.DisplayName ?? _settings.DisplayName, mailData.From ?? _settings.From);
 
                 // Receiver
                 foreach (string mailAddress in mailData.To)
