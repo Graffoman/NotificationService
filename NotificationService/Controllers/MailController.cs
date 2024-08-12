@@ -15,7 +15,7 @@ namespace NotificationService.Controllers
             _mail = mail;
         }
 
-        [HttpPost("sendmail1")]
+        [HttpPost("sendmail")]
         public async Task<IActionResult> SendMailAsync1(MailData mailData)
         {
             bool result = await _mail.SendAsync(mailData);
@@ -31,20 +31,5 @@ namespace NotificationService.Controllers
             }
         }
 
-        [HttpPost("sendmail")]
-        public async Task<IActionResult> SendMailAsync(MailData mailData)
-        {
-            bool result = await _mail.SendAsync(mailData);
-
-            if (result)
-            {
-                return StatusCode(StatusCodes.Status200OK, "Mail has successfully been sent.");
-            }
-            else
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "An error occured. The Mail could not be sent.");
-            }
-        }
     }
 }

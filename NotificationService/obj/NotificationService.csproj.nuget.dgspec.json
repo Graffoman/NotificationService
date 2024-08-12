@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vasilevaea\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj": {}
+    "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\NotificationService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vasilevaea\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj": {
+    "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\NotificationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vasilevaea\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj",
+        "projectUniqueName": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\NotificationService.csproj",
         "projectName": "NotificationService",
-        "projectPath": "C:\\Users\\vasilevaea\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj",
+        "projectPath": "C:\\Users\\vasilevaea\\source\\repos\\NotificationService\\NotificationService\\NotificationService.csproj",
         "packagesPath": "C:\\Users\\vasilevaea\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\vasilevaea\\Source\\Repos\\NotificationService\\NotificationService\\obj\\",
         "projectStyle": "PackageReference",
