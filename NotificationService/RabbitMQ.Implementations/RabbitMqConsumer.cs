@@ -22,29 +22,29 @@ namespace NotificationService.Classes
         private readonly string _queueName;
         private readonly ILogger<RabbitMQConsumer> _logger;
 
-        public RabbitMQConsumer(IEmailSender emailSender, string hostName, string username, string password, string queueName, ILogger<RabbitMQConsumer> logger)
+        public RabbitMQConsumer(IEmailSender emailSender, RabbitSettings rabbitSettings, ILogger<RabbitMQConsumer> logger)
         {
-            if (string.IsNullOrEmpty(hostName))
-                throw new ArgumentNullException(nameof(hostName));
-            if (string.IsNullOrEmpty(username))
-                throw new ArgumentNullException(nameof(username));
-            if (string.IsNullOrEmpty(password))
-                throw new ArgumentNullException(nameof(password));
-            if (string.IsNullOrEmpty(queueName))
-                throw new ArgumentNullException(nameof(queueName));
+            if (string.IsNullOrEmpty(rabbitSettings.HostName))
+                throw new ArgumentNullException(nameof(rabbitSettings.HostName));
+            if (string.IsNullOrEmpty(rabbitSettings.UserName))
+                throw new ArgumentNullException(nameof(rabbitSettings.UserName));
+            if (string.IsNullOrEmpty(rabbitSettings.Password))
+                throw new ArgumentNullException(nameof(rabbitSettings.Password));
+            if (string.IsNullOrEmpty(rabbitSettings.QueueName))
+                throw new ArgumentNullException(nameof(rabbitSettings.QueueName));
 
             _emailSender = emailSender ?? throw new ArgumentNullException(nameof(emailSender));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
             var factory = new ConnectionFactory()
             {
-                HostName = hostName,
-                UserName = username,
-                Password = password
+                HostName = rabbitSettings.HostName,
+                UserName = rabbitSettings.UserName,
+                Password = rabbitSettings.Password
             };
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
-            _queueName = queueName;
+            _queueName = rabbitSettings.QueueName;
         }
 
         public Task StartAsync(CancellationToken cancellationToken)
@@ -81,7 +81,7 @@ namespace NotificationService.Classes
                     .SetFrom("alenchaeto@mail.ru")
                     .AddToRecipient(emailMessage.Email)
                     .SetSubject("Сервис опросов")
-                    .SetBody($"<html><body>{emailMessage.MessageText}<br><a href='{emailMessage.OpenQuestionnaireUrl}'>Click here to open the questionnaire</a></body></html>", true)
+                    .SetBody($"<html><body>{emailMessage.MessageText}<br><a href='{emailMessage.OpenQuestionnaireUrl}'>Нажмите для перехода к опросу</a></body></html>", true)
                     .Build();
 
                 _emailSender.SendEmail(mailMessage);

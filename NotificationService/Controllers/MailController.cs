@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NotificationService.Classes;
 using NotificationService.Services;
+using System.Threading.Tasks;
 
 namespace NotificationService.Controllers
 {
@@ -27,9 +28,8 @@ namespace NotificationService.Controllers
             else
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "An error occured. The Mail could not be sent.");
+                    "An error occurred. The Mail could not be sent.");
             }
         }
-
     }
 }

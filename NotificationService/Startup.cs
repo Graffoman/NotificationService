@@ -1,13 +1,9 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using NotificationService.Classes;
 using NotificationService.Interfaces;
 using NotificationService.Configuration;
 using Microsoft.Extensions.Options;
+using NotificationService.Services;
 
 namespace NetConsoleApp
 {
@@ -41,8 +37,10 @@ namespace NetConsoleApp
                 var emailSender = provider.GetRequiredService<IEmailSender>();
                 var rabbitSettings = provider.GetRequiredService<IOptions<RabbitSettings>>().Value;
                 var logger = provider.GetRequiredService<ILogger<RabbitMQConsumer>>();
-                return new RabbitMQConsumer(emailSender, rabbitSettings.HostName, rabbitSettings.UserName, rabbitSettings.Password, rabbitSettings.QueueName, logger);
+                return new RabbitMQConsumer(emailSender, rabbitSettings, logger);
             });
+
+            services.AddTransient<IMailService, MailService>();
 
             services.AddLogging(configure => configure.AddConsole());
         }
