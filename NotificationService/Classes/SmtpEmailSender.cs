@@ -34,7 +34,7 @@ namespace NotificationService.Classes
             }
         }
 
-        Task<bool> IEmailSender.SendAsync(MailMessage message, CancellationToken ct)
+        public Task<bool> SendAsync(MailMessage message, CancellationToken ct)
         {
             throw new NotImplementedException();
         }

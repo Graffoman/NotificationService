@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/izhuravlev/Alona/NotificationService/NotificationService/NotificationService.csproj": {}
+    "C:\\Users\\Home\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj": {}
   },
   "projects": {
-    "/Users/izhuravlev/Alona/NotificationService/NotificationService/NotificationService.csproj": {
+    "C:\\Users\\Home\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/izhuravlev/Alona/NotificationService/NotificationService/NotificationService.csproj",
+        "projectUniqueName": "C:\\Users\\Home\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj",
         "projectName": "NotificationService",
-        "projectPath": "/Users/izhuravlev/Alona/NotificationService/NotificationService/NotificationService.csproj",
-        "packagesPath": "/Users/izhuravlev/.nuget/packages/",
-        "outputPath": "/Users/izhuravlev/Alona/NotificationService/NotificationService/obj/",
+        "projectPath": "C:\\Users\\Home\\Source\\Repos\\NotificationService\\NotificationService\\NotificationService.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Home\\Source\\Repos\\NotificationService\\NotificationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/izhuravlev/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

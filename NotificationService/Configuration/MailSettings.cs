@@ -1,6 +1,4 @@
-﻿using System.Net.Mail;
-
-namespace NotificationService.Configuration
+﻿namespace NotificationService.Configuration
 {
     public class MailSettings
     {
@@ -13,6 +11,5 @@ namespace NotificationService.Configuration
         public bool UseSSL { get; set; }
         public bool UseStartTls { get; set; }
         public bool UseOAuth { get; set; }
-
     }
 }

@@ -9,22 +9,22 @@ namespace NotificationService.Classes
 {
     internal class EmailMessageBuilder
     {
-        private MailData _emailMessage;
+        private MailMessage _emailMessage;
 
-        public EmailMessageBuilder(MailData emailMessage)
+        public EmailMessageBuilder()
         {
-            _emailMessage = emailMessage;
+            _emailMessage = new MailMessage();
         }
 
         public EmailMessageBuilder SetFrom(string from)
         {
-            _emailMessage.From = from;
+            _emailMessage.From = new MailAddress(from);
             return this;
         }
 
-        public EmailMessageBuilder AddToRecipient(List<string> to)
+        public EmailMessageBuilder AddToRecipient(string to)
         {
-            _emailMessage.To.AddRange(to);
+            _emailMessage.To.Add(new MailAddress(to));
             return this;
         }
 
@@ -34,13 +34,14 @@ namespace NotificationService.Classes
             return this;
         }
 
-        public EmailMessageBuilder SetBody(string body)
+        public EmailMessageBuilder SetBody(string body, bool isHtml = false)
         {
             _emailMessage.Body = body;
+            _emailMessage.IsBodyHtml = isHtml;
             return this;
         }
 
-        public MailData Build()
+        public MailMessage Build()
         {
             return _emailMessage;
         }
