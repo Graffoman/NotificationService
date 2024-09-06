@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Home\\source\\repos\\NotificationService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\classes\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\classes\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\rabbitmq.implementations\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\rabbitmq.implementations\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\classes\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\classes\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\classes\\emailmessagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\classes\\emailmessagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\configuration\\rabbitsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\configuration\\rabbitsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\rabbitmq.abstractions\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\rabbitmq.abstractions\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\configuration\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\configuration\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\classes\\maildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\classes\\maildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\classes\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\classes\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|c:\\users\\home\\source\\repos\\notificationservice\\notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622BB8E5-8A8E-4885-83D7-60DF600ECB32}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,105 +79,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
-              "RelativeDocumentMoniker": "NotificationService\\Program.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
-              "RelativeToolTip": "NotificationService\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:16:11.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SmtpSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\SmtpSettings.cs",
-              "RelativeDocumentMoniker": "NotificationService\\Classes\\SmtpSettings.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\SmtpSettings.cs",
-              "RelativeToolTip": "NotificationService\\Classes\\SmtpSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:19:55.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MailData.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\MailData.cs",
-              "RelativeDocumentMoniker": "NotificationService\\Classes\\MailData.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\MailData.cs",
-              "RelativeToolTip": "NotificationService\\Classes\\MailData.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:19:48.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MailSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Configuration\\MailSettings.cs",
-              "RelativeDocumentMoniker": "NotificationService\\Configuration\\MailSettings.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Configuration\\MailSettings.cs",
-              "RelativeToolTip": "NotificationService\\Configuration\\MailSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:15:53.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\RabbitMQ.Abstractions\\Notification.cs",
-              "RelativeDocumentMoniker": "NotificationService\\RabbitMQ.Abstractions\\Notification.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\RabbitMQ.Abstractions\\Notification.cs",
-              "RelativeToolTip": "NotificationService\\RabbitMQ.Abstractions\\Notification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:15:12.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SmtpEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\SmtpEmailSender.cs",
-              "RelativeDocumentMoniker": "NotificationService\\Classes\\SmtpEmailSender.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\SmtpEmailSender.cs",
-              "RelativeToolTip": "NotificationService\\Classes\\SmtpEmailSender.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:14:55.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Interfaces\\IEmailSender.cs",
-              "RelativeDocumentMoniker": "NotificationService\\Interfaces\\IEmailSender.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Interfaces\\IEmailSender.cs",
-              "RelativeToolTip": "NotificationService\\Interfaces\\IEmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:14:35.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EmailMessageBuilder.cs",
               "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\EmailMessageBuilder.cs",
               "RelativeDocumentMoniker": "NotificationService\\Classes\\EmailMessageBuilder.cs",
               "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\EmailMessageBuilder.cs",
               "RelativeToolTip": "NotificationService\\Classes\\EmailMessageBuilder.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAAIAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwC4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:14:19.893Z",
+              "WhenOpened": "2024-09-06T13:25:21.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Configuration\\MailSettings.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Configuration\\MailSettings.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Configuration\\MailSettings.cs",
+              "RelativeToolTip": "NotificationService\\Configuration\\MailSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:25:14.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\appsettings.json",
+              "RelativeDocumentMoniker": "NotificationService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\appsettings.json",
+              "RelativeToolTip": "NotificationService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T13:15:02.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RabbitSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Configuration\\RabbitSettings.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Configuration\\RabbitSettings.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Configuration\\RabbitSettings.cs",
+              "RelativeToolTip": "NotificationService\\Configuration\\RabbitSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:04:16.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Interfaces\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Interfaces\\IEmailSender.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Interfaces\\IEmailSender.cs",
+              "RelativeToolTip": "NotificationService\\Interfaces\\IEmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:00:45.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmtpEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\SmtpEmailSender.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Classes\\SmtpEmailSender.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Classes\\SmtpEmailSender.cs",
+              "RelativeToolTip": "NotificationService\\Classes\\SmtpEmailSender.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T12:58:34.774Z",
               "EditorCaption": ""
             },
             {
@@ -188,9 +162,35 @@
               "RelativeDocumentMoniker": "NotificationService\\RabbitMQ.Implementations\\RabbitMqConsumer.cs",
               "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\RabbitMQ.Implementations\\RabbitMqConsumer.cs",
               "RelativeToolTip": "NotificationService\\RabbitMQ.Implementations\\RabbitMqConsumer.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAwwDsAAAAQAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAADwv1cAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T12:13:56.3Z",
+              "WhenOpened": "2024-09-06T12:49:37.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Startup.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Startup.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Startup.cs",
+              "RelativeToolTip": "NotificationService\\Startup.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwC4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T12:48:25.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Program.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\NotificationService\\NotificationService\\Program.cs",
+              "RelativeToolTip": "NotificationService\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T12:48:10.382Z",
               "EditorCaption": ""
             }
           ]

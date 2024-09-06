@@ -1,31 +1,21 @@
-using NotificationService.Classes;
-using NotificationService.Interfaces;
-using System;
-using System.Net.Mail;
-using NotificationService.Configuration;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using NotificationService;
 
 namespace NetConsoleApp
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var mailSettings = new MailSettings
-            {
-                Host = "smtp.mail.ru",
-                Port = 587,
-                UserName = "alenchaeto@mail.ru",
-                Password = "JMvwj6tD3r6ACGypqLNq",
-                UseSSL = true
-            };
-
-            IEmailSender emailSender = new SmtpEmailSender(mailSettings.Host, mailSettings.Port, mailSettings.UserName, mailSettings.Password);
-
-            var rabbitMQConsumer = new RabbitMQConsumer(emailSender, "84.201.158.212", "admin", "admin");
-            rabbitMQConsumer.StartConsuming("Notifications");
-
-            Console.WriteLine("Press [enter] to exit.");
-            Console.ReadLine();
+            CreateHostBuilder(args).Build().Run();
         }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
