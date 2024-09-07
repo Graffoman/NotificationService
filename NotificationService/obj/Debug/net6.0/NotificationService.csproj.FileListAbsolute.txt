@@ -1,0 +1,17 @@
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.exe
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.deps.json
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.runtimeconfig.json
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.dll
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.pdb
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\bin\Debug\net6.0\System.IO.Log.dll
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.AssemblyInfo.cs
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.csproj.CopyComplete
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.dll
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\refint\NotificationService.dll
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.pdb
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.genruntimeconfig.cache
+C:\Users\79112\Source\Repos\NotificationService\NotificationService\obj\Debug\net6.0\ref\NotificationService.dll
