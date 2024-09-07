@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NotificationService.Classes;
 using NotificationService.Services;
-using System.Threading.Tasks;
 
 namespace NotificationService.Controllers
 {

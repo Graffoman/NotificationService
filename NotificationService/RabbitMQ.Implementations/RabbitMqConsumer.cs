@@ -1,16 +1,10 @@
-using Microsoft.Extensions.Hosting;
-using RabbitMQ.Client;
+п»їusing RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
-using System.Net.Mail;
 using RabbitMQ.Abstractions;
 using NotificationService.Interfaces;
 using NotificationService.Configuration;
-using Microsoft.Extensions.Logging;
 
 namespace NotificationService.Classes
 {
@@ -80,8 +74,8 @@ namespace NotificationService.Classes
                 var mailMessage = new EmailMessageBuilder()
                     .SetFrom("alenchaeto@mail.ru")
                     .AddToRecipient(emailMessage.Email)
-                    .SetSubject("Сервис опросов")
-                    .SetBody($"<html><body>{emailMessage.MessageText}<br><a href='{emailMessage.OpenQuestionnaireUrl}'>Нажмите для перехода к опросу</a></body></html>", true)
+                    .SetSubject("РћРїРѕРІРµС‰РµРЅРёРµ РѕС‚ СЃРµСЂРІРёСЃР° РѕРїСЂРѕСЃРѕРІ")
+                    .SetBeautifulBody(emailMessage.MessageText, emailMessage.OpenQuestionnaireUrl)
                     .Build();
 
                 _emailSender.SendEmail(mailMessage);

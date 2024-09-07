@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using NotificationService.Classes;
+﻿using NotificationService.Classes;
 using NotificationService.Interfaces;
 
 namespace NotificationService.Services

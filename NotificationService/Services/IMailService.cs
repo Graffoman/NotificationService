@@ -1,11 +1,9 @@
-﻿
-using NotificationService.Classes;
-using MailKit;
-using MimeKit;
+﻿using NotificationService.Classes;
 
-namespace NotificationService.Services;
-
-public interface IMailService
+namespace NotificationService.Services
 {
-    Task<bool> SendAsync(MailData mailData);
+    public interface IMailService
+    {
+        Task<bool> SendAsync(MailData mailData);
+    }
 }
